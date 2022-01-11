@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.container{
+    width: 1110px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav{
+    margin-left: auto;
+}
+
+.header-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.intro{
+    background-color: #F2CEDA;
+    ;
+
+}
+.header-nav-link{
+  color: #150101;
+  text-decoration: none;
+}
+
+.header-nav-item{
+    margin-right: 40px;
+}
+
+.intro-container{
+    display: flex;
+    align-items: flex-start;
+
+}
+.buy-now{
+    display: inline-block;
+    border: 1px solid #D23166;    
+    padding: 13px 50px;
+    text-decoration: none;
+    background-color: #D23166;
+    ;
+}
+
+.intro-content{
+    padding-top: 196px;
+}
+
+
+.intro-view-plans{
+    margin-top: 50px;
+}
+
+.intro-title{
+    font-size: 57px;
+    margin: 0;
+    font-family: Fredoka One;
+}
+
+.intro-description{
+    margin: 0;
+    margin-top: 16px;
+}
+
+.different-list{
+ display: flex;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+
+}
+
+.different-circle{
+width: 80px;
+height: 80px;
+display: block;
+background-image: url(img/shopping-cart.svg);
+background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
